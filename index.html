@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Digestive News</title>
+  <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/office-33/765/Page_1-512.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbarContainer">
+    <nav id="change" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand heading " href="#"><i class="fa-regular fa-newspaper fa-fade fa-xl"
+            style="color: #0000ff;"></i> Daily Digestive News</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse allfeatures" id="navbarNavAltMarkup">
+          <div class="navbar-nav  ">
+            <button class="nav-link all" aria-current="page">All</button>
+            <button class="nav-link Sports">Sports</button>
+            <button class="nav-link technology">Technology</button>
+            <button class="nav-link entertainment">Entertainment</button>
+            <!-- <button class="nav-link general" >LifeStyle</button> -->
+            <button class="nav-link nation">Nation</button>
+            <button class="nav-link business">Business</button>
+            <button class="nav-link science ">Science</button>
+            <button class="nav-link health">Health</button>
+            <button class="nav-link world">World</button>
+            <button class="night-mode"><i class="fa-solid fa-circle-half-stroke fa-lg"
+                style="color: #000000;"></i></button>
+          </div>
+
+        </div>
+
+
+        <!-- weather -->
+        <div class="weather ">
+          <div class="card innerWeather">
+          
+            <div class="card-body weatherBody">
+              <blockquote class="blockquote mb-0">
+                <span id="weatherMsg"></span>
+                <span class="blockquote-footer" id="weather-type"></span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Weather feature -->
+
+
+
+  
+  <div class="more">
+    <!-- Language -->
+  <div class="dropup Lang">
+    <button class="btn btn-primary dropdown-toggle Language-msg" id="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      English
+    </button>
+    <ul class="dropdown-menu language-menu">
+      <!-- <li><button class="dropdown-item" >Action</button></li>
+      <li><button class="dropdown-item" >Another action</button></li>
+      <li><button class="dropdown-item" >Something else here</button></li> -->
+    </ul>
+  </div> 
+
+  <!-- Country -->
+  <div class="dropup Cont">
+    <button class="btn btn-primary dropdown-toggle country-msg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+     India
+    </button>
+    <ul class="dropdown-menu dropdown-scrollbar country-menu">
+      <!-- <li><button class="dropdown-item" id="USA" >USA</button></li>
+      <li><button class="dropdown-item" id="UK">UK</button></li>
+      <li><button class="dropdown-item" id="IN">India</button></li> -->
+    </ul>
+  </div> 
+  </div>
+
+
+
+
+  <!-- loading -->
+  <div class="text-center loading">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <!-- cards -->
+  <div class=" card_container row d-flex justify-content-center m-2 "></div>
+
+
+
+
+
+
+
+
+  <!-- <div class="d-flex justify-content-center mb-2"><button class=" btn btn-success m-2 Next">Next</button></div> -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <script src="config.js"></script>
+    <script src="CountryLangCode.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

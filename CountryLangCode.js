@@ -1,0 +1,43 @@
+const CountryCode={
+India : "in",
+Australia :"au",
+UnitedKingdom	:"gb",
+UnitedStates	:"us",
+Canada	:"ca",
+Pakistan	:"pk",
+Ireland	:"ie",
+Israel	:"il",
+Philippines	:"ph",
+Singapore	:"sg",
+Italy	:"it",
+Brazil	:"br",
+China	:"cn",
+Japan	:"jp",
+Netherlands	:"nl"  ,
+Norway	:"no",
+Egypt	:"eg",
+France	:"fr",
+Germany	:"de",
+Greece	:"gr",
+HongKong:"hk",
+Peru	:"pe",
+Portugal	:"pt",
+Romania	:"ro",
+RussianFederation	:"ru"  ,
+Spain	:"es",
+Sweden	:"se",
+Switzerland	:"ch",
+Taiwan	:"tw",
+Ukraine	:"ua",
+
+}
+
+
+const LanguageList={
+    English	:"en",
+    Hindi	:"hi",
+    Malayalam:"ml",
+    Marathi	:"mr",
+    Tamil	:"ta",
+    Telugu	:"te",
+    }

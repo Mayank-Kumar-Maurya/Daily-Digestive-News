@@ -1,0 +1,104 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:0;
+    margin:0;
+}
+.navbarContainer{
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    width: 100%;
+    
+}
+
+.change{
+    background-color: pink !important;
+}
+.heading{
+    color: blue !important;
+    
+}
+.night-mode{
+    background-color:unset;
+    font-size: larger;
+}
+
+.mainContainer{
+    width: 20em;
+    margin-bottom: 1em;
+}
+.loading{
+   
+    display: none;
+    position: fixed;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+    font-size: larger;
+    z-index: 5;
+}
+.row{
+    margin-top: 5rem !important;
+}
+
+#weatherMsg,#weather-type{
+    font-size: smaller !important;
+    padding: 0px !important;
+}
+.weatherBody,.innerWeather{
+    border: 0px !important;
+    background-color:unset !important;
+    padding: 0.2em !important;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    width:100%;
+    
+    bottom: 0em;
+    background-color: #f8f9fa !important;    
+}
+.more{
+    position: fixed;
+   
+    width: 100%;
+    bottom: 0px;
+    /* left:0px; */
+   
+    z-index: 5;
+    background-color: unset  ; /*#f8f9fa */
+    display: flex;
+    justify-content:space-between;
+    /* margin-top: 8rem; */
+    
+    padding: 0.2em
+    
+}
+.dropdown-scrollbar{
+    height: 100px;
+    overflow: auto;
+}
+/* .Lang{
+    position: fixed;
+    left:1px;
+    bottom: 0px;
+    z-index: 5;
+}
+.Cont{
+    position: fixed;
+    right:1px;
+    bottom: 0;
+    z-index: 5;
+
+} */
+.Language-msg, .country-msg{
+    font-size: smaller;
+    color: black;
+    background-color:  #b4c5e4;
+    border: 0;
+}
+/* .card_container{
+    margin-top: 7rem !important;
+} */
